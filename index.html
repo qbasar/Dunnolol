@@ -1,11 +1,22 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="script/script.js"></script>
     <title>Crypto Calculator | How much did I lose this time?</title>
   </head>
   <body>
-    <<h1>Crypto Calculator</h1>
+    <h1>Crypto Calculator</h1>
+    <div id="calculator">
+      <p id="calText">Enter value: <input type="text" id="calValue" name="CryptoValue"></p>
+
+      <p id="calDate">Date: <input type="text" id="datepicker"></p>
+
+      <button onclick="myFunction()">Calculate</button>
+
+    </div>
   </body>
 </html>
